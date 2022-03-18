@@ -1,7 +1,7 @@
-## 解决配置ssh之后，还需要输入密码的问题
+### 解决配置ssh之后，还需要输入密码的问题
 
 
-### 解决方案，在当前的目录下，输入以下代码即可
+1. 第一步，在当前的目录下，输入以下代码即可
 
 
 ```js
@@ -14,9 +14,9 @@ ssh-add ~/.ssh/id_rsa
 
 
 
-### 最后在命名行输入 git pull 看看代码是否可以拉取成功
+2. 第二步在命名行输入 git pull 看看代码是否可以拉取成功
 
 可以拉取成功，表示设置成功了！
 
-<img width="442" alt="image" src="https://user-images.githubusercontent.com/88621724/159010494-42ad0965-38e8-4818-8384-fef5060407e4.png">![Uploading image.png…]()
+<img width="442" alt="image" src="https://user-images.githubusercontent.com/88621724/159010494-42ad0965-38e8-4818-8384-fef5060407e4.png">
 
